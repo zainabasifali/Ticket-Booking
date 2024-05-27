@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import emailjs from 'emailjs-com';
-import { db } from "./Components/config/fb-conf";
+import { db } from "./config/fb-conf";
 import { updateDoc, doc, deleteDoc, collection, getDocs, docs } from "firebase/firestore";
-import styles from './Components/Event/Event.module.css'
+import styles from '../Components/Event/Event.module.css'
 
 let Bookings = () => {
   const [bookings, setbooking] = useState([]);

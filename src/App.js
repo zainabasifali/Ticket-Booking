@@ -11,7 +11,7 @@ import {RoleContext,EmailContext} from "./Components/Context";
 import Logout from "./Components/Firebase_Auth/Form/Logout";
 import Registerations from "./Components/Registrations";
 import BookEvent from "./Components/BookEvent";
-import Bookings from "./Bookings";
+import Bookings from "./Components/Bookings";
 
 function App() {
   const [role,setrole] = useState("")
