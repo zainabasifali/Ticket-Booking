@@ -4,7 +4,7 @@ let Home = ()=>{
 return(
     <>
     <div className={styles.BackgroundImage}>
-        <h1>Ticket Booking System</h1>
+        <h1>Ticket Booking System...!</h1>
     </div>
     </>
 )
