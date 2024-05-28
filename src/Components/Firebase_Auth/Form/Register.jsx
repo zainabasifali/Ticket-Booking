@@ -30,6 +30,10 @@ const Register = () => {
       clientSideError = true;
       setErrorMessage('Please select a role.');
     }
+    else if(formvalues.role == 'Admin' && formvalues.password != "ticket.admin"){
+      clientSideError = true;
+         setErrorMessage('Please Provide with correct password') 
+    }
 
     if (!clientSideError) {
       setErrorMessage(null);
