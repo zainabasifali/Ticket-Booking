@@ -25,6 +25,11 @@ const Event = () => {
       setcomment("")
       return;
     }
+    if (event.Comment == '') {
+      seterror("Write Something")
+      setcomment("")
+      return;
+    }
     const docRef = doc(db, "Event", event.id);
     const newComment = {
       name: localStorage.getItem('Email'),
