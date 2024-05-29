@@ -25,9 +25,10 @@ const Event = () => {
       setcomment("")
       return;
     }
-    if (event.Comment == '') {
-      seterror("Write Something")
-      setcomment("")
+    const trimmedComment = comment.trim();
+    if (!trimmedComment) {
+      seterror("Write Something");
+      setcomment("");
       return;
     }
     const docRef = doc(db, "Event", event.id);
