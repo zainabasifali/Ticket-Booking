@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .Page{
-    background-image: url('../../../public/events2.jpg');
+    background-color: #5c4734;
     background-size: cover;
     color: white;
     min-height: 80vh;
