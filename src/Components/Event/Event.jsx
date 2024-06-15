@@ -91,7 +91,7 @@ const Event = () => {
                     </>
                   ))}
 
-                  <textarea rows="3" value={comment} placeholder="Type your comment here" name="comment" onChange={(e) => { setcomment(e.target.value) }}></textarea>
+                  <textarea className={styles2.textarea} rows="3" value={comment} placeholder="Type your comment here" name="comment" onChange={(e) => { setcomment(e.target.value) }}></textarea>
                   <button className={styles.ButtonComment} onClick={() => { handlecomment(event) }}>Upload</button><br />
                   {error && (setTimeout(() => {seterror(""); }, 3000),<p className={styles2.Error}>{error}</p>
 )}

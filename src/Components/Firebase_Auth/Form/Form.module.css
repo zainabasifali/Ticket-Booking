@@ -45,3 +45,6 @@
 .Error{
     color: red;
 }
+textarea{
+    width: 360px;
+}
