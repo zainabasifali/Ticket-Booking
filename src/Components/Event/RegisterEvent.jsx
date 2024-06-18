@@ -55,7 +55,7 @@ let RegisterEvent = ()=>{
               ConfirmationStatus: formvalues.ConfirmationStatus,
               
             });
-    
+            alert("Registeration Done")
             setformvalues({ Name: '', PlaceOfEvent: '', Description: '', DateOfEvent: '',NoOfTicketsAvailable:'',TicketPrize:'',EndDateBooking:'',ConfirmationStatus:false});
             setRegisterStatus(true)
           } }

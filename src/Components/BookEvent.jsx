@@ -50,7 +50,7 @@ if(document.NoOfTicketsAvailable == 0){
       UserDateofBooking: date,
       ConfirmationStatus: false
     });
-
+    alert("Booking Done")
     resetForm();
     setbookStatus(true)
   };
